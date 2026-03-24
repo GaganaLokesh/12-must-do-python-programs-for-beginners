@@ -8,5 +8,5 @@ for word in words:
         freq[word]=1
 print(freq)
 
-# string.split()->onverts sentence → list of words.
+# string.split()->converts sentence → list of words.
 # dict = {}->Stores key-value pairs.

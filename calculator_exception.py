@@ -33,10 +33,17 @@ while True:
             print(f"Modulus is: {num1 % num2}")
 
         else:
-            print("Invalid choice ❌")
+            print("Invalid choice ")
 
     except ZeroDivisionError:
-        print("Cannot divide by zero ❌")
+        print("Cannot divide by zero ")
 
     except ValueError:
-        print("Please enter valid numbers ❌")
+        print("Please enter valid numbers ")
+
+# Python runs code inside try
+# If no error → everything runs normally ✅
+# If error occurs → Python jumps to matching except ❌➡️✅
+
+# except does NOT handle all exceptions automatically
+# 👉 It handles only the ones you specify

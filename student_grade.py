@@ -5,7 +5,7 @@ for i in range(n):
     name=input("Enter Name: ")
     marks=int(input("Enter Marks: "))
 
-    students.append((name,marks))
+    students.append((name,marks)) #tuple
 # for name,marks in students:
 #     if marks>=90:
 #         grade="A"
@@ -28,3 +28,19 @@ for student in students:
     else:
         grade="Fail"
     print(name, marks, grade)
+
+# 🔹 Indexing happens in TWO levels ⚡
+# ✅ Level 1 → List indexing
+# students[0] → ("Gagana", 95)
+# students[1] → ("Rahul", 80)
+
+# 👉 Each index gives one tuple
+
+# ✅ Level 2 → Tuple indexing
+
+# Now inside each tuple:
+
+# student = ("Gagana", 95)
+
+# student[0] → "Gagana"
+# student[1] → 95

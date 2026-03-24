@@ -7,3 +7,8 @@ for i in range(2,num):
     #break occurs->else does NOT run
 else:                        
     print("prime number")
+
+#range(start, stop, step)
+# start → where to begin
+# stop → where to end (NOT included)
+# step → how much to increment
